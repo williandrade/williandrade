@@ -1,0 +1,28 @@
+.is-relative {
+  position: relative;
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+.b0 {
+  bottom: 0;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.card.transparent {
+  background: transparent;
+}
+
+.is-horizontal-align.column,
+.is-vertical-align.column {
+  flex-direction: column;
+}
+
+.pointer {
+  cursor: pointer;
+}

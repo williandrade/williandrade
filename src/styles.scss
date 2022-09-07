@@ -1,0 +1,25 @@
+@import url(chota);
+@import url("css/fonts.scss");
+
+:root {
+  --bg-color: #1a1f22;
+  --bg-secondary-color: #ffffff;
+  --color-primary: #f1e4c5;
+  --font-color: #ffffff;
+  --font-family-sans: "Antic Didone";
+  --grid-maxWidth: 142rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  background-color: var(--color-primary);
+  width: 100%;
+  height: 15px;
+}
+
+@import url("css/helper.scss");
+@import url("css/dark.scss");
+@import url("css/animations.scss");

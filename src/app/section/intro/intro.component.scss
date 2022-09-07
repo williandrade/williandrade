@@ -1,0 +1,23 @@
+.intro-container {
+  overflow: hidden;
+}
+.will-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:first-child {
+    max-width: 100vh;
+  }
+}
+.footer-city {
+  width: 100%;
+  bottom: -2vh;
+}
+
+@media screen and (max-width: 899px) {
+  .footer-city {
+    width: 200vh;
+    left: -10vh;
+  }
+}

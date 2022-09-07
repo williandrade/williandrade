@@ -1,0 +1,25 @@
+a {
+  cursor: pointer;
+  position: relative;
+  &:not(.button) {
+    &::before {
+      content: url("../../assets/menu-hover.svg");
+      position: absolute;
+      display: block;
+      position: absolute;
+      top: 35px;
+      left: calc(50% - 40px);
+      z-index: 2;
+      opacity: 0;
+      transition: 0.2s all linear;
+      animation: float-subtle 6s ease-in-out infinite;
+    }
+  }
+  &:hover:not(.button) {
+    color: var(--color-primary);
+    opacity: 1;
+    &::before {
+      opacity: 1;
+    }
+  }
+}

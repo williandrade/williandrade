@@ -1,0 +1,12 @@
+<div
+  class="is-full-screen is-relative bg-dark is-horizontal-align column"
+  id="recomendations-rows"
+>
+  <div class="row-inline" *ngFor="let number of [0, 1, 2, 3, 4]">
+    <div *ngFor="let recomendation of gettArraySorted(number); index as i">
+      <wills-recomendation-card
+        [recomendation]="recomendation"
+      ></wills-recomendation-card>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Antic Didone";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Antic Didone"),
+    url("../assets/fonts/AnticDidone-Regular.woff") format("woff");
+}
+
+.balboa-plus {
+  font-family: "balboa-plus-fill", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.balboa-plus-gradient {
+  font-family: "balboa-plus-gradient", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.balboa-plus-inline {
+  font-family: balboa-plus-inline, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.balboa-plus-primary {
+  font-family: "balboa-plus-primary", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

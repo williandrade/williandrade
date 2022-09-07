@@ -1,0 +1,27 @@
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float-subtle {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-5px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+
+.is-animated.float {
+  animation: float 6s ease-in-out infinite;
+}

@@ -1,0 +1,16 @@
+.row-inline {
+  width: 100%;
+  height: calc(100vh / 4);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  position: relative;
+  div {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    word-break: break-all;
+    white-space: normal;
+    width: 100vh;
+  }
+}
